@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f07f0959ec5467429cbec37647f53647",
+    "revision": "8ab78d86da21084fd4c97ead52ee9fbf",
     "url": "/RankMyAppTest/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RankMyAppTest/static/css/2.0624914a.chunk.css"
   },
   {
-    "revision": "d008f69ab2f54bd60d1d",
+    "revision": "677556e6f3b436fe5dbc",
     "url": "/RankMyAppTest/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RankMyAppTest/static/js/2.47c2b262.chunk.js"
   },
   {
-    "revision": "d008f69ab2f54bd60d1d",
-    "url": "/RankMyAppTest/static/js/main.4e57b3e7.chunk.js"
+    "revision": "677556e6f3b436fe5dbc",
+    "url": "/RankMyAppTest/static/js/main.68164256.chunk.js"
   },
   {
     "revision": "2038838e7c87dcf40bbc",

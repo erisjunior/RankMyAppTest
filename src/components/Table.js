@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { parseISO, isFuture } from 'date-fns';
 import { Table as RSTable } from 'reactstrap';
 
 const style = {
@@ -17,7 +18,9 @@ export default function Table(props) {
 
   useEffect(() => {
     const dates = [];
-    if (firstDate.date > secondDate.date) {
+    const dateOne = parseISO(firstDate.formattedDate);
+    const dateTwo = parseISO(secondDate.formattedDate);
+    if (isFuture(dateOne, dateTwo)) {
       dates.push(firstDate);
       dates.push(secondDate);
     } else {

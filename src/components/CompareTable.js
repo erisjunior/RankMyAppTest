@@ -40,6 +40,8 @@ export default function CompareTable(props) {
     setKeywords(keywords);
   }, [dates]);
 
+  console.log(dates);
+
   return (
     <RSTable dark style={style.table}>
       <thead>
